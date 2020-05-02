@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "https://buntyke.github.io/resume"
+baseURL = "https://buntyke.github.io/webresume"
 
 theme = "resume"
 publishDir = "docs"
