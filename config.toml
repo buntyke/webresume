@@ -1,0 +1,267 @@
+# Page settings
+
+baseURL = "https://buntyke.github.io/resume"
+
+theme = "resume"
+publishDir = "docs"
+languageCode = "en"
+title = "Nishanth Koganti"
+
+[params]
+    author = "Nishanth"
+    description = "Profile page of Nishanth Koganti"
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+    [params.profile]
+        enable = true
+        name = "Nishanth Koganti"
+        tagline = "Senior Data Scientist"
+        avatar = "avatar.jpg"
+
+    [params.contact]
+        enable = true
+        location = "Hyderabad, India"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:#"
+        text = "+91 9347233393"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "nishanth.koganti7@gmail.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "#"
+        text = "buntyke.github.io"
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Theory"
+        [[params.skills.list.items]]
+        details = "Deep Learning"
+        [[params.skills.list.items]]
+        details = "Reinforcement Learning"
+        [[params.skills.list.items]]
+        details = "Bayesian Nonparametrics"
+        [[params.skills.list.items]]
+        details = "Robotics"
+
+        [[params.skills.list]]
+        title = "Software"
+        [[params.skills.list.items]]
+        details = "Python Dev"
+        [[params.skills.list.items]]
+        details = "Scipy/Pandas/Matplotlib"
+        [[params.skills.list.items]]
+        details = "Pytorch/Tensorflow"
+        [[params.skills.list.items]]
+        details = "Flask Web Dev"
+        [[params.skills.list.items]]
+        details = "Azure Machine Learning"
+        [[params.skills.list.items]]
+        details = "Azure Devops"
+        [[params.skills.list.items]]
+        details = "Robot Operating System"
+
+        [[params.skills.list]]
+        title = "Hardware"
+        [[params.skills.list.items]]
+        details = "Baxter Robot"
+        [[params.skills.list.items]]
+        details = "Raspberry Pi"
+        [[params.skills.list.items]]
+        details = "Google Coral TPU"
+        [[params.skills.list.items]]
+        details = "Arduino"
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "PhD in Information Science"
+        university = "NAIST, Ikoma, Japan"
+        dates = "2014 - 2017"
+        [[params.education.list]]
+        degree = "M.Eng in Information Science"
+        university = "NAIST, Ikoma, Japan"
+        dates = "2012 - 2014"
+        [[params.education.list]]
+        degree = "B.Tech in Electrical Engg"
+        university = "IIT Jodhpur, Jodhpur, India"
+        dates = "2008 - 2012"
+
+    [params.awards]
+        enable = true
+        [[params.awards.list]]
+        name = "NEDO Award for Excellence"
+        body = "World Robotics Summit, Team NAIST-RITS-Panasonic"
+        date = "2018"
+        [[params.awards.list]]
+        name = "MEXT Scholarship"
+        body = "Japanese Govt. Funding"
+        date = "2014-2017"
+        [[params.awards.list]]
+        name = "Best Application Paper Award"
+        body = "IEEE IROS 2015 Conf."
+        date = "2015"
+        [[params.awards.list]]
+        name = "Prize for Japan-India Friendship"
+        body = "ACM AIR 2017 Conf."
+        date = "2017"
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "English"
+        level = "Native"
+        [[params.languages.list]]
+        name = "Japanese"
+        level = "Professional"
+        [[params.languages.list]]
+        name = "Telugu"
+        level = "Native"
+        [[params.languages.list]]
+        name = "Hindi"
+        level = "Native"
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Hiking"
+        [[params.interests.list]]
+        name = "Table Tennis"
+        [[params.interests.list]]
+        name = "Competitive Coding"
+
+    [params.summary]
+        enable = true
+        text = "Passionate researcher with 5+ years of experience in Machine Learning (ML) and robotics. Experienced building production-ready spend analysis product leveraging Deep Learning libraries and Azure cloud services with reduction of manual effort upto 80%. Comprehensive publication record with a best application paper award at IEEE IROS Conference 2015 among 950 paper submissions. Demonstrated leadership skills by co-supervising 18 member team winning first position in World Robotics Summit, Tokyo, Japan 2018."
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Senior Data Scientist"
+        dates = "2019 - Present"
+        company = "GEP Worldwide Inc, India"
+        [[params.experience.list.items]]
+        details = "Developed spend analysis API which **reduced human efforts by upto 80%**. Designed deep learning models to perform **extreme multi-label classification of 20,000 labels** and engineering pipeline to **process over 100 million transaction records**. Leveraged Pytorch, Azure Machine Learning, Databricks and Azure Data Factory to engineer the product."
+        [[params.experience.list.items]]
+        details = "Developed legal text analysis APIs for contract lifecycle management. Designed deep learning models for language modeling of legal text, clause classification in contracts and clause deviation analysis with respect to a clause library. Leveraged **Pytorch, Azure Machine Learning and Azure Kubernetes Services** to engineer the product."
+        [[params.experience.list.items]]
+        details = "Submitted **two patents on original research conducted** for contract lifecycle management and spend classification currently review in US Patent Office."
+        [[params.experience.list.items]]
+        details = "**Conducted knowledge sharing sessions** on reinforcement learning, meta learning and Azure machine learning service to team members."
+
+        [[params.experience.list]]
+        title = "Assistant Professor"
+        dates = "2018 - 2019"
+        company = "NAIST, Japan"
+        [[params.experience.list.items]]
+        details = "Research on Imitation Learning (IL) to train visual attention system applierd to Human-Robot interaction."
+        [[params.experience.list.items]]
+        details = "Supervised 3 PhD students on robotics clothing assistance, Imitation learning to model shepherding behavior and bio-signal processing."
+        [[params.experience.list.items]]
+        details = "Collaboration with Denso corporation to apply Maximum Mean Discrepancy for obstacle detection on roads."
+        [[params.experience.list.items]]
+        details = "Supervised team for WRS 2018 to control mobile manipulation using Kuka IIWA LBR and custom designed end-effector."
+
+        [[params.experience.list]]
+        title = "Postdoctoral Researcher"
+        dates = "2017 - 2018"
+        company = "The University of Tokyo, Japan"
+        [[params.experience.list.items]]
+        details = "Novel research on policy gradient RL applied to visual attention tasks for applications such as 3D navigation and HRI."
+        [[params.experience.list.items]]
+        details = "Development of simulation environment in Unity game engine as a test-bed for DRL using ML-agents library."
+        [[params.experience.list.items]]
+        details = "Developed active vision system on Roomba robot for visual attention and integrated with Jetson TX2 using ROS."
+
+        [[params.experience.list]]
+        title = "Visiting Student Researcher"
+        dates = "2014 - 2017"
+        company = "Kyushu Institute of Technology, Japan"
+        [[params.experience.list.items]]
+        details = "Developed clothing assistance framework with integration of Baxter dual-arm robot and Kinect depth sensor."
+        [[params.experience.list.items]]
+        details = "In-charge of research group on assistive robotics co-supervising 3 master students."
+        [[params.experience.list.items]]
+        details = "Organized several summer seminars on ROS, Machine Learning using Scipy stack and Gaussian processes using GPy library."
+        [[params.experience.list.items]]
+        details = "Introduction collaborative coding to lab with several published projects: [Link](https://github.com/ShibataLab)"
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "Azure Machine Learning Template"
+        meta = "Open Source"
+        tagline = "Open-source machine learning project using Azure machine learning as a learning resource to experiment with model auditing and providing ML as a service: [Link](https://github.com/nishanthkoganti-gep/aml_experiment)"
+
+        [[params.projects.list]]
+        title = "Imitation Learning in Pytorch"
+        meta = "Open Source"
+        tagline = "Open-source project with an implementation of Behavioral cloning algorithm in Pytorch and its integration with OpenAI Gym environments for experimentation: [Link](https://github.com/buntyke/pytorch-imitation)"
+
+        [[params.projects.list]]
+        title = "Kinect Baxter Calibration"
+        meta = "Open Source"
+        tagline = "Open-source project on hand-eye calibration between a Kinect depth sensor and Baxter dual-arm robot using AR markers implemented using Robot Operating System: [Link](https://github.com/ShibataLab/kinect_baxter_calibration)"
+
+    [params.information]
+        enable = true
+
+        [[params.information.list]]
+        title = "Journals"
+        [[params.information.list.items]]
+        details = "**2017** · *Bayesian Nonparametric Learning of Cloth Models for State Estimation*, **IEEE Transactions Robotics**"
+        [[params.information.list.items]]
+        details = "**2019** · *Data-efficient Learning of Robotic Clothing Assistance using BGPLVM*, **Advanced Robotics**"
+        [[params.information.list.items]]
+        details = "**2020** · *Restock System for Retail Automation using Mobile Manipulation*, **Advanced Robotics**"
+
+        [[params.information.list]]
+        title = "Patents"
+        [[params.information.list.items]]
+        details = "**2019** · *Deep Learning based Spend Analysis*, **US Patent Office** (Under Review)"
+        [[params.information.list.items]]
+        details = "**2019** · *Deep Learning based Contract Lifecycle Management*, **US Patent Office** (Under Review)"
+
+        [[params.information.list]]
+        title = "Conferences"
+        [[params.information.list.items]]
+        details = "**2013** · *Estimation of Human-Cloth Topological Relationship for Robotic Clothing Assistance*, **ACM AIR Conf.**"
+        [[params.information.list.items]]
+        details = "**2015** · *Cloth Dynamics Modeling in Latent Spaces for Robotic Clothing Assistance*, **IEEE IROS Conf.**"
+        [[params.information.list.items]]
+        details = "**2018** · *Virtual Reality as a User-friendly Interface for Learning from Demonstrations*, **ACM SIGCHI Conf.**"
+        [[params.information.list.items]]
+        details = "**2019** · *Toward Imitating Visual Attention of Experts in Software Development Tasks*, **ACM EMIP Workshop**"
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/buntyke"
+        title = "buntyke"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/nishanth-koganti-488a27194"
+        title = "nishanth-koganti"
+        [[params.social.list]]
+        icon = "ai ai-google-scholar-square"
+        url = "//scholar.google.com/citations?user=X_kPcpEAAAAJ&hl=en"
+        title = "nishanth-koganti"
+
+
+
+
+
