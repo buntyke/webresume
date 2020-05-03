@@ -98,10 +98,6 @@ title = "Nishanth Koganti"
     [params.awards]
         enable = true
         [[params.awards.list]]
-        name = "NEDO Award for Excellence"
-        body = "World Robotics Summit, Team NAIST-RITS-Panasonic"
-        date = "2018"
-        [[params.awards.list]]
         name = "MEXT Scholarship"
         body = "Japanese Govt. Funding"
         date = "2014-2017"
@@ -142,7 +138,7 @@ title = "Nishanth Koganti"
 
     [params.summary]
         enable = true
-        text = "Passionate researcher with 5+ years of experience in Machine Learning (ML) and robotics. Experienced building production-ready spend analysis product leveraging Deep Learning libraries and Azure cloud services with reduction of manual effort upto 80%. Comprehensive publication record with a best application paper award at IEEE IROS Conference 2015 among 950 paper submissions. Demonstrated leadership skills by co-supervising 18 member team winning first position in World Robotics Summit, Tokyo, Japan 2018."
+        text = "Researcher/Engineer with **5+ years of experience** in Machine Learning (ML) and Robotics. Experienced building production-ready machine learning products **leveraging Deep Learning libraries and Azure cloud services**. Comprehensive publication record with a **best application paper award at IEEE IROS Conference 2015** among 950 paper submissions. Demonstrated leadership skills by **co-supervising 18 member team winning first position** in Customer Interaction task in World Robotics Summit, Tokyo, Japan 2018."
 
     [params.experience]
         enable = true
@@ -228,13 +224,6 @@ title = "Nishanth Koganti"
         details = "**2020** · *Restock System for Retail Automation using Mobile Manipulation*, **Advanced Robotics**"
 
         [[params.information.list]]
-        title = "Patents"
-        [[params.information.list.items]]
-        details = "**2019** · *Deep Learning based Spend Analysis*, **US Patent Office** (Under Review)"
-        [[params.information.list.items]]
-        details = "**2019** · *Deep Learning based Contract Lifecycle Management*, **US Patent Office** (Under Review)"
-
-        [[params.information.list]]
         title = "Conferences"
         [[params.information.list.items]]
         details = "**2013** · *Estimation of Human-Cloth Topological Relationship for Robotic Clothing Assistance*, **ACM AIR Conf.**"
@@ -251,15 +240,15 @@ title = "Nishanth Koganti"
         [[params.social.list]]
         icon = "fab fa-github-square"
         url = "//github.com/buntyke"
-        title = "buntyke"
+        title = "github"
         [[params.social.list]]
         icon = "fab fa-linkedin"
         url = "//linkedin.com/in/nishanth-koganti-488a27194"
-        title = "nishanth-koganti"
+        title = "linkedin"
         [[params.social.list]]
         icon = "ai ai-google-scholar-square"
         url = "//scholar.google.com/citations?user=X_kPcpEAAAAJ&hl=en"
-        title = "nishanth-koganti"
+        title = "google-scholar"
 
 
 
